@@ -13,6 +13,10 @@ Added couple bits to do little maths under `StdCalibrate` for the Barometer BMP0
         barometer = barometer + (outTemp-32) * 0.0091
         radiation = light * 0.007893
 ```
+Added `group_speed` to `[[[[Groups]]]]` as it was not added in the default config
+```
+                 group_speed        = km_per_hour        # Options are 'mile_per_hour', 'km_per_hour', 'knot', 'meter_per_second', or 'beaufort'.
+```
 
 ### Work in progress
 Get RSSI/SNR/Noise data added to `Sensor Status` on the web page
