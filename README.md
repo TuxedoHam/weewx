@@ -1,7 +1,7 @@
 # weewx
 This is a copy of the weewx.conf file I use with my PanTech PT-WH2900 aka WH65B which is a rebranded FineOff. The data is collected by a RTL SDR dongle with the [WeeWX-SDR](https://github.com/matthewwall/weewx-sdr) module
 
-Added couple bits to do little maths under `StdCalibrate` for the Barometer BMP085 added to Raspberry Pi, and for Radiation take from Lux value.
+Added couple bits to do little maths under `StdCalibrate` for the Barometer BMP085 added to Raspberry Pi and added `barometer` correction as not sure if it changes based on temperature, and for `radiation` taken from Lux value.
 
 ```
 [StdCalibrate]
