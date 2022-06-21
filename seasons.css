@@ -37,6 +37,7 @@ body {
     padding: 0;
     border: 0;
     font-family: 'Open Sans', arial, sans-serif;
+    /* Added font size */
     font-size: 14px;
     background-color: var(--background-color);
 }
@@ -132,6 +133,7 @@ a:hover {
     /* underlined titles */
     border-bottom: 2px solid var(--section-border-color);
     /* outlined titles */
+    /* UNCOMMENTED */
     background-color: var(--title-background-color);
     border: 1px solid var(--section-border-color);
 }
